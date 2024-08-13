@@ -8,7 +8,7 @@ export const Navbar = () => {
     )
 
     return (
-        <div className="bg-transparent text-gray-500 h-[100px] max-w-[2000px] mx-auto flex justify-between items-center">
+        <div className="z-10 bg-transparent text-gray-500 h-[100px] max-w-[2000px] mx-auto flex justify-between items-center">
 
             <h1 className="text-2xl text-slate-100  md:text-3xl font-bold primary-color ml-4 xl:ml-40">Ahmed K</h1>
 
@@ -24,7 +24,7 @@ export const Navbar = () => {
             </div>
 
             {/*Navbar for mobile screens*/}
-            <div className={nav ? "fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500"
+            <div className={nav ? "z-10 fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500"
                 : "fixed left-[-100%]"}>
                 <h1 className="text-2xl primary-color m-4">Ahmed K</h1>
                 <ul className="p-8 text-xl">
