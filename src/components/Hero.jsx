@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation"
 
 const Hero = () => {
     return (
-        <div id="home" className="h-3/4 md:h-[100vh]">
+        <div id="home" className="h-3/4 md:h-[100vh] mt-[100px] lg:mt-[100px] xl:mt-[200px]">
             <div className="my-7 sm:my-0 max-w-[1400px] h-[80vh] mx-auto 
             flex flex-col-reverse sm:flex-row
             justify-center align-center">
@@ -46,14 +46,26 @@ const Hero = () => {
                     {/*Links to github, linkedin and email*/}
                     {/*Changes icon size for mobile screens*/}
                     <div className="text-5xl flex flex-row justify-around md:justify-start md:gap-10 md:my-7 text-orange-600">
-                        <AiFillGithub size={50} className="md:hidden"/>
-                        <AiFillLinkedin size={50} className="md:hidden"/>
-                        <AiFillMail size={50} className="md:hidden"/>
+                        <a target="_blank" href="https://github.com/Ahm3d-KA">
+                            <AiFillGithub size={50} className="md:hidden"/>
+                        </a>
+                        <a target="_blank" href="">
+                            <AiFillLinkedin size={50} className="md:hidden"/>
+                        </a>
+                        <a target="_blank" href="">
+                            <AiFillMail size={50} className="md:hidden"/>
+                        </a>
                     </div>
                     <div className="text-5xl flex flex-row justify-around md:justify-start md:gap-10 md:my-7 text-orange-600">
-                        <AiFillGithub className="hidden md:block"/>
-                        <AiFillLinkedin className="hidden md:block"/>
-                        <AiFillMail className="hidden md:block"/>
+                        <a target="_blank" href="https://github.com/Ahm3d-KA">
+                            <AiFillGithub className="hidden md:block"/>
+                        </a>
+                        <a target="_blank" href="">
+                            <AiFillLinkedin className="hidden md:block"/>
+                        </a>
+                        <a target="_blank" href="">
+                            <AiFillMail className="hidden md:block"/>
+                        </a>
                     </div>
 
                     {/*Button to CV*/}
