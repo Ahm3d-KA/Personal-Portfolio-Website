@@ -1,6 +1,36 @@
-﻿import React, {useState} from "react";
+﻿import React, {useState, useEffect} from "react";
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 export const Navbar = () => {
+
+    const [show, setShow] = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(0);
+
+    const controlNavbar = () => {
+        if (typeof window !== 'undefined') {
+            if (window.scrollY > lastScrollY) {
+                // if scrolling down, hide the navbar
+                setShow(false);
+            } else {
+                // if scrolling up, show the navbar
+                setShow(true);
+            }
+
+            // remember the current page location for the next move
+            setLastScrollY(window.scrollY);
+        }
+    };
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            window.addEventListener('scroll', controlNavbar);
+
+            // cleanup function
+            return () => {
+                window.removeEventListener('scroll', controlNavbar);
+            };
+        }
+    }, [lastScrollY]);
+    
     const [nav, setNav] = useState(false)
 
     const handleNav = () => (
@@ -8,8 +38,11 @@ export const Navbar = () => {
     )
 
     return (
-        <div
-            className="fixed top-0 z-10 bg-[#20242d] text-gray-400 h-[100px] w-full mx-auto flex justify-between items-center">
+        <nav
+            
+            className={`fixed top-0 z-10 bg-[#20242d] text-gray-400 h-[100px] w-full mx-auto flex justify-between items-center
+            transition-transform duration-300 
+            transform ${show ? 'translate-y-0' : '-translate-y-full'}`}>
 
             <h1 className="text-2xl text-slate-100  lg:text-3xl font-bold primary-color ml-4 xl:ml-40">Ahmed K</h1>
 
@@ -56,6 +89,6 @@ export const Navbar = () => {
             </div>
 
 
-        </div>
+        </nav>
     );
 }
