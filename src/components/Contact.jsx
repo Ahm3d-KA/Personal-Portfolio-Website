@@ -16,15 +16,28 @@ const Contact = () => {
                                   Contact <span>Me</span>
                               </h1>
                               <p className="text-normal text-lg text-gray-400 mt-2">
-                                  Let's connect on LinkedIn <br/>
-                                  or send me an Email
+                                  Let's connect on <div className="underline text-[#FF4B2B] hover:text-[#ff674d] inline">
+                                  <a href="">
+                                      LinkedIn
+                                  </a>
+                              </div> 
+                                  
                               </p>
+                            <hr/>
+                            <p className="text-normal text-lg text-gray-400 mt-2">
+                                or send me an Email
+                            </p>
                               
+                            
+                            
                               <div className="flex items-center mt-2 text-gray-400">
                                   <AiFillMail size={50} className=""/>
                                   <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                      <p>
-                                          Ahmed Kehinde
+                                      <p className="underline text-[#FF4B2B] hover:text-[#ff674d]">
+                                          <a href="">
+                                              Ahmed Kehinde
+                                              
+                                          </a>
                                       </p>
                                   </div>
                                   
@@ -60,7 +73,7 @@ const Contact = () => {
                             <div className="mt-4 w-full p-0 self-center flex flex-col items-center justify-center">
                                 <div className="  relative inline-flex group my-3">
                                     <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r
-                             from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100
+                             from-[#FF4B2B] via-[#6689A1] to-[#FF416C] rounded-xl blur-lg group-hover:opacity-100
                             group-hover:-inset-1 group-hover:duration-200 animate-tilt">
 
                                     </div>

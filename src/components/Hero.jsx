@@ -38,19 +38,19 @@ const Hero = () => {
                     </div>
                     
                     <div className="sm:flex sm:justify-center sm:items-center">
-                        <p className="md:text-5xl sm:text-4xl text-md font-bold text-gray-500"> 
+                        <p className="md:text-5xl sm:text-4xl text-md font-bold text-gray-300"> 
                             With 2 years of experience
                         </p>
                     </div>
                     
                     {/*Links to github, linkedin and email*/}
                     {/*Changes icon size for mobile screens*/}
-                    <div className="text-5xl flex flex-row justify-around md:justify-start md:gap-10 md:my-7 text-purple-600">
+                    <div className="text-5xl flex flex-row justify-around md:justify-start md:gap-10 md:my-7 text-orange-600">
                         <AiFillGithub size={50} className="md:hidden"/>
                         <AiFillLinkedin size={50} className="md:hidden"/>
                         <AiFillMail size={50} className="md:hidden"/>
                     </div>
-                    <div className="text-5xl flex flex-row justify-around md:justify-start md:gap-10 md:my-7 text-purple-600">
+                    <div className="text-5xl flex flex-row justify-around md:justify-start md:gap-10 md:my-7 text-orange-600">
                         <AiFillGithub className="hidden md:block"/>
                         <AiFillLinkedin className="hidden md:block"/>
                         <AiFillMail className="hidden md:block"/>
@@ -60,7 +60,7 @@ const Hero = () => {
                     <div className="w-full">
                         <div className="ml-[50px] md:ml-0  relative inline-flex group my-3">
                             <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r
-                             from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100
+                             from-[#FF4B2B] via-[#6689A1] to-[#FF416C] rounded-xl blur-lg group-hover:opacity-100
                             group-hover:-inset-1 group-hover:duration-200 animate-tilt">
                                 
                             </div>
