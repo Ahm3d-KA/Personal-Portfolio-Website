@@ -3,7 +3,7 @@ import aboutImg from "../assets/about4.jpeg"
 
 const About = () => {
     return (
-        <div className="py-10 text-white h-auto bg-[#232325]">
+        <div id="about" className="py-10 text-white h-auto bg-[#232325]">
             <div className="flex lg:flex-row flex-col-reverse items-center
             md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
                 
@@ -48,7 +48,7 @@ const About = () => {
                                     </b>
                                 </span>
                             </h3>
-                            <article className="prose dark:prose-invert prose-sm md:prose-md lg:prose-lg prose-zinc">
+                            <article className="prose dark:prose-invert prose-sm md:prose-base lg:prose-lg prose-stone">
                                 <p className="hidden md:block">
                                     I am a passionate full-stack web developer with 2 years of experience, specializing
                                     in

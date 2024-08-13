@@ -6,16 +6,19 @@ import proj4 from "../assets/proj4.png"
 
 const Work = () => {
     return (
-        <div className="py-6 max-w-[1200px] mx-auto">
+        <div id="work" className="pt-6 pb-12 max-w-[1200px] mx-auto">
             <div className="mx-auto px-4 md:px-8">
                 <div className="mb-4 flex items-center justify-between gap-8">
                     <div className="flex flex-col gap-4">
                         <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl  text-white">
                             My <span>Projects</span>
                         </h2>
-                        <p className="text-gray-500">
-                            These are my latest projects for different clients
-                        </p>
+                        <article className="prose prose-stone dark:prose-invert prose-sm md:prose-base lg:prose-lg">
+                            <p className="">
+                                These are my latest projects for different clients
+                            </p>
+                        </article>
+                            
                     </div>
 
                 </div>
