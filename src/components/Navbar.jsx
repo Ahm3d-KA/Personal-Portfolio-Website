@@ -1,5 +1,6 @@
 ﻿import React, {useState, useEffect} from "react";
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import { Link } from "react-scroll"
 export const Navbar = () => {
 
     const [show, setShow] = useState(true);
@@ -50,21 +51,22 @@ export const Navbar = () => {
 
             <ul className="hidden md:flex">
 
-                <li className="p-2 lg:p-5"><a 
+                <li className="p-2 lg:p-5"><Link to="home" smooth={true} duration={500}
                     className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-                    href="#home">Home</a></li>
-                <li className="p-2 lg:p-5"><a
+                    href="#home">Home</Link></li>
+                <li className="p-2 lg:p-5"><Link to="about" smooth={true} duration={500}
                     className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-                    href="#about">About</a></li>
-                <li className="p-2 lg:p-5"><a
+                    href="#about">About</Link></li>
+                    
+                <li className="p-2 lg:p-5"><Link to="work" smooth={true} duration={500}
                     className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-                    href="#work">Work</a></li>
-                <li className="p-2 lg:p-5"><a 
+                    href="#work">Work</Link></li>
+                <li className="p-2 lg:p-5"><Link to="experience" smooth={true} duration={500}
                     className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" 
-                    href="#experience">Experience</a></li>
-                <li className="p-2 lg:p-5 pr-0 mr-4 xl:mr-40"><a 
+                    href="#experience">Experience</Link></li>
+                <li className="p-2 lg:p-5 pr-0 mr-4 xl:mr-40"><Link to="contact" smooth={true} duration={500}
                     className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-                    href="#contact">Contact</a></li>
+                    href="#contact">Contact</Link></li>
             </ul>
             </div>
 

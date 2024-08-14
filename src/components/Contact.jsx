@@ -1,10 +1,10 @@
 ﻿import React from "react";
-import {AiFillMail} from "react-icons/ai";
+import {AiFillMail, AiFillCaretRight} from "react-icons/ai";
 
 
 const Contact = () => {
     return (
-        <div id="contact" className="flex justify-center my-5 h-full sm:h-[70vh]
+        <div id="contact" className="flex justify-center py-10 h-full sm:h-[70vh]
         items-center">
             <div className="max-w-[1200px] mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-0">
@@ -24,22 +24,23 @@ const Contact = () => {
                                   
                               </p>
                             <hr/>
-                            <p className="text-normal text-lg text-gray-400 mt-2">
-                                or send me an Email
-                            </p>
-                              
+                         
+                                <p className="text-normal text-lg text-gray-400 mt-2">
+                                    or send me an Email <span className={"hidden md:block"}>→</span> <span className={"md:hidden"}>↓</span> 
+                                </p>
+                                {/*<AiFillCaretRight size={50} className=""/>*/}
+                        
                             
                             
                               <div className="flex items-center mt-2 text-gray-400">
-                                  <AiFillMail size={50} className=""/>
-                                  <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                      <p className="underline text-[#FF4B2B] hover:text-[#ff674d]">
-                                          <a href="">
-                                              Ahmed Kehinde
-                                              
-                                          </a>
-                                      </p>
-                                  </div>
+                                  {/*<div className="ml-4 text-md tracking-wide font-semibold w-40">*/}
+                                  {/*    <p className="underline text-[#FF4B2B] hover:text-[#ff674d]">*/}
+                                  {/*        <a href="">*/}
+                                  {/*            Ahmed Kehinde*/}
+                                  {/*            */}
+                                  {/*        </a>*/}
+                                  {/*    </p>*/}
+                                  {/*</div>*/}
                                   
                               </div>
                               
