@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.root {
+  top: var(--mouse-x);
+}
+
 body {
   background-color: #20242d;
   font-family: 'Poppins', sans-serif;
@@ -25,3 +30,99 @@ span,
 .bg-primary-color {
   background-image: linear-gradient(to right, #FF4B2B, #FF416C);
 }
+
+.technologycards {
+
+}
+
+.techcard {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.techcard .icon {
+  transition: transform 0.4s ease-in-out;
+}
+
+.techcard:hover .icon {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.techcard::before {
+  background: radial-gradient(
+    800px circle at var(--mouse-x) var(--mouse-y), 
+    rgba(100,24, 255, 0.06),
+    transparent 10%
+  );
+  border-radius: inherit;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+@media (max-width: 1024px) {
+  .animate-float {
+    animation: none;
+  }
+}
+
+.animate-gradient {
+  background-size: 300%;
+  -webkit-animation: animatedgradient 6s ease infinite alternate;
+  -moz-animation: animatedgradient 6s ease infinite alternate;
+  animation: animatedgradient 6s ease infinite alternate;
+}
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*#cards {*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*  gap: 8px;*/
+/*  max-width: 916px;*/
+/*  width: calc(100% - 20px)*/
+/*}*/
+
+/*.card {*/
+/*  background-color: rgba(255, 255, 255, 0.1);*/
+/*  border: 1px solid rgba(255, 255, 255, 0.1);*/
+/*  border-radius: 10px;*/
+/*  cursor: pointer;*/
+/*  height: 260px;*/
+/*  position: relative;*/
+/*  width: 300px;*/
+/*}*/
+
+/*.card::before {*/
+/*  background: radial-gradient(*/
+/*  800px circle at var(--mouse-x) var(--mouse-y),*/
+/*  rgba(255, 255, 255, 0.06),*/
+/*  transparent 40%*/
+/*  );*/
+/*  border-radius: inherit;*/
+/*  content: "";*/
+/*  height: 100%;*/
+/*  left: 0;*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  width: 100%;*/
+/*  z-index: 10;*/
+/*}*/

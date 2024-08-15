@@ -8,43 +8,43 @@ const Contact = () => {
         items-center">
             <div className="max-w-[1200px] mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-0">
-                        
+
                         <div className="p-6 mx-4 bg-gray-800 border border-gray-700 rounded-xl flex flex-col
-                          justify-around">
-                            
-                              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white">
-                                  Contact <span>Me</span>
-                              </h1>
-                              <p className="text-normal text-lg text-gray-400 mt-2">
-                                  Let's connect on <div className="underline text-[#FF4B2B] hover:text-[#ff674d] inline">
-                                  <a href="">
-                                      LinkedIn
-                                  </a>
-                              </div> 
-                                  
-                              </p>
+                          justify-around h-[450px]">
+
+                            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white">
+                                Contact <span>Me</span>
+                            </h1>
+                            <p className="text-normal text-lg text-gray-400 mt-2">
+                                Let's connect on <div className="underline text-[#FF4B2B] hover:text-[#ff674d] inline">
+                                <a href="">
+                                    LinkedIn
+                                </a>
+                            </div>
+
+                            </p>
                             <hr/>
-                         
-                                <p className="text-normal text-lg text-gray-400 mt-2">
-                                    or send me an Email <span className={"hidden md:block"}>→</span> <span className={"md:hidden"}>↓</span> 
-                                </p>
-                                {/*<AiFillCaretRight size={50} className=""/>*/}
-                        
-                            
-                            
-                              <div className="flex items-center mt-2 text-gray-400">
-                                  {/*<div className="ml-4 text-md tracking-wide font-semibold w-40">*/}
-                                  {/*    <p className="underline text-[#FF4B2B] hover:text-[#ff674d]">*/}
-                                  {/*        <a href="">*/}
-                                  {/*            Ahmed Kehinde*/}
-                                  {/*            */}
-                                  {/*        </a>*/}
-                                  {/*    </p>*/}
-                                  {/*</div>*/}
-                                  
-                              </div>
-                              
-                          </div>
+
+                            <p className="text-normal text-lg text-gray-400 mt-2">
+                                or send me a message
+                            </p>
+                            {/*<span className={"hidden md:block"}>→</span> <span className={"md:hidden"}>↓</span>*/}
+                            {/*<AiFillCaretRight size={50} className=""/>*/}
+
+
+                            <div className="flex items-center mt-2 text-gray-400">
+                                {/*<div className="ml-4 text-md tracking-wide font-semibold w-40">*/}
+                                {/*    <p className="underline text-[#FF4B2B] hover:text-[#ff674d]">*/}
+                                {/*        <a href="">*/}
+                                {/*            Ahmed Kehinde*/}
+                                {/*            */}
+                                {/*        </a>*/}
+                                {/*    </p>*/}
+                                {/*</div>*/}
+
+                            </div>
+
+                        </div>
                         <form action="https://getform.io/f/bqonyknb" method="post"
                               className="p-4 flex flex-col justify-center max-w-[700px]">
 
@@ -74,7 +74,7 @@ const Contact = () => {
                             <div className="mt-4 w-full p-0 self-center flex flex-col items-center justify-center">
                                 <div className="  relative inline-flex group my-3">
                                     <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r
-                             from-[#FF4B2B] via-[#6689A1] to-[#FF416C] rounded-xl blur-lg group-hover:opacity-100
+                             from-[#FF4B2B] to-[#6689A1] via-[#FF416C] rounded-xl blur-lg group-hover:opacity-100
                             group-hover:-inset-1 group-hover:duration-200 animate-tilt">
 
                                     </div>
