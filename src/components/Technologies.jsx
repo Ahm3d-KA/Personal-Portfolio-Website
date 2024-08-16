@@ -40,7 +40,7 @@ const Technlogies = () => {
                         </div>
                     </a>
                 </div>
-                <div className="animate-float delay-10  relative inline-flex group">
+                <div className="animate-float delay-100  relative inline-flex group">
                     <div className="absolute transition-all duration-1000 opacity-0 -inset-px bg-gradient-to-r
                              from-[#FF4B2B] to-[#6689A1] via-[#FF416C] rounded-xl blur-lg group-hover:opacity-100
                             group-hover:-inset-1 group-hover:duration-200 animate-tilt">
