@@ -59,9 +59,9 @@ const Hero = () => {
                                href="https://uk.linkedin.com/in/ahmedkehinde?trk=people-guest_people_search-card">
                                 <AiFillLinkedin size={50} className="md:hidden"/>
                             </a>
-                            <a href="#contact">
+                            <Link to="contact">
                                 <AiFillMail size={50} className="md:hidden"/>
-                            </a>
+                            </Link>
                         </div>
                         <div
                             className="text-5xl flex flex-row justify-around md:justify-start md:gap-10 md:my-3 text-orange-600">
@@ -102,7 +102,7 @@ const Hero = () => {
 
                     {/*cool picture*/}
                     <div className="my-auto">
-                        <img className="w-[200px] sm:w-[500px] mx-auto h-auto" src={profilepic} alt="profile pic"/>
+                        <img className="w-[130px] sm:w-[300px] mx-auto h-auto" src={profilepic} alt="profile pic"/>
                     </div>
 
                 </div>
