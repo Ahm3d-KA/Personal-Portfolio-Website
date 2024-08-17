@@ -9,7 +9,7 @@ const Footer = () => {
                     <FaGithubSquare className={"hover:text-gray-400"}/>
                 </a>
                 <a target="_blank"
-                   href="https://uk.linkedin.com/in/ahmed-kehinde-22aa55220?trk=people-guest_people_search-card">
+                   href="https://uk.linkedin.com/in/ahmedkehinde?trk=people-guest_people_search-card">
                     <FaLinkedin className={"hover:text-gray-400"}/>
                 </a>
             </div>

@@ -9,6 +9,12 @@ import Buffer from "./components/Buffer";
 import Technlogies from "./components/Technologies";
 import Project from "./components/Project";
 import portfoliopic from "./assets/websitemockup1.jpg"
+// import { Routes } from "./Routes";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import {Home} from "./pages/Home";
+import {Project1bounce} from "./pages/Project1bounce";
+import {Project2mentalmaths} from "./pages/Project2mentalmaths";
+import {Project3archive} from "./pages/Project3archive";
 
 // Cool project picture animations
 // Cool animations
@@ -20,10 +26,19 @@ import portfoliopic from "./assets/websitemockup1.jpg"
 
 function App() {
   return (
-      <div>
+      <>
+          <BrowserRouter>
+              <Routes>
+                  <Route index element={<Home />} />
+                  <Route path={"/home"} element={<Home />} />
+                  <Route path={"/project/bounce"} element={<Project1bounce />} />
+                  <Route path={"/project/mentalmaths"} element={<Project2mentalmaths />} />
+                  <Route path={"/project/archive"} element={<Project3archive />} />
+              </Routes>
+          </BrowserRouter>
           
-          <Project link={"localhost:3000"} pictureLink={portfoliopic} title={"Clothing Website"} timePeriod={"May 23 - Jan 24"} technologiesUsed={["helo", "me"]}  about={"This project is an e-commerce shopping platform designed to provide users with a seamless online shopping experience. The website features a clean and modern user interface, allowing users to browse, search, and purchase products easily. The site includes a robust backend for handling inventory management, user authentication, and secure payment processing."} />
-          
+          {/*<Project link={"localhost:3000"} pictureLink={portfoliopic} title={"Clothing Website"} timePeriod={"May 23 - Jan 24"} technologiesUsed={["helo", "me"]}  about={"This project is an e-commerce shopping platform designed to provide users with a seamless online shopping experience. The website features a clean and modern user interface, allowing users to browse, search, and purchase products easily. The site includes a robust backend for handling inventory management, user authentication, and secure payment processing."} />*/}
+          {/*<Project />*/}
           {/*<Navbar />*/}
           {/*<Hero />*/}
           {/*<Technlogies />*/}
@@ -32,7 +47,7 @@ function App() {
           {/*<Experience />*/}
           {/*<Contact  />*/}
           {/*<Footer />*/}
-      </div>
+      </>
   );
 }
 

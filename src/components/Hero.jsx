@@ -1,5 +1,5 @@
 ﻿import React from 'react'
-import profilepic from "../assets/profilepic5.png"
+import profilepic from "../assets/figmagraphic4.png"
 import {AiFillLinkedin, AiFillGithub, AiFillMail} from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation"
 import {Link} from "react-scroll";
@@ -37,7 +37,7 @@ const Hero = () => {
                                     ]}
                                     wrapper="span"
                                     speed={50}
-                                    repeat={1}
+                                    repeat={0}
                                 />
                             </h1>
                         </div>
@@ -56,7 +56,7 @@ const Hero = () => {
                                 <AiFillGithub size={50} className="md:hidden"/>
                             </a>
                             <a target="_blank"
-                               href="https://uk.linkedin.com/in/ahmed-kehinde-22aa55220?trk=people-guest_people_search-card">
+                               href="https://uk.linkedin.com/in/ahmedkehinde?trk=people-guest_people_search-card">
                                 <AiFillLinkedin size={50} className="md:hidden"/>
                             </a>
                             <a href="#contact">
@@ -69,7 +69,7 @@ const Hero = () => {
                                 <AiFillGithub className="hidden md:block hover:text-orange-500"/>
                             </a>
                             <a target="_blank"
-                               href="https://uk.linkedin.com/in/ahmed-kehinde-22aa55220?trk=people-guest_people_search-card">
+                               href="https://uk.linkedin.com/in/ahmedkehinde?trk=people-guest_people_search-card">
                                 <AiFillLinkedin className="hidden md:block hover:text-orange-500"/>
                             </a>
                             {/*<a href="#contact">*/}
@@ -88,7 +88,7 @@ const Hero = () => {
 
                                 </div>
 
-                                <a href="/" title="Download CV" role="button"
+                                <a href="https://bluecoatschoolorg-my.sharepoint.com/:w:/g/personal/17kehindea_bluecoatstudent_org_uk/EassQaMwDpxCst3P8ZuVzfAB8TRIxLj1B7eNioy5IHYiVA?e=Er0Hmg" target="_blank" title="Download CV" role="button"
                                    className="w-[240px] md:w-[280px] h-[50px] md:h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-primary-color font-pj rounded-xl
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
