@@ -1,15 +1,4 @@
-import {Navbar} from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Work from "./components/Work";
-import Experience from "./components/Experience";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Buffer from "./components/Buffer";
-import Technlogies from "./components/Technologies";
-import Project from "./components/Project";
-import portfoliopic from "./assets/websitemockup1.jpg"
-// import { Routes } from "./Routes";
+
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import {Home} from "./pages/Home";
 import {Project1bounce} from "./pages/Project1bounce";

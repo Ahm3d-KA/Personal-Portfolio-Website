@@ -2,12 +2,9 @@
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Work from "../components/Work";
-import Experience from "../components/Experience";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import Buffer from "../components/Buffer";
 import Technlogies from "../components/Technologies";
-import Project from "../components/Project";
 import {useEffect, useState} from "react";
 
 export const Home = () => {

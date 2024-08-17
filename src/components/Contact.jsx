@@ -1,5 +1,4 @@
 ﻿import React from "react";
-import {AiFillMail, AiFillCaretRight} from "react-icons/ai";
 
 
 const Contact = () => {

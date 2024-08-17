@@ -1,5 +1,4 @@
 ﻿import React from 'react';
-import mockup from "../assets/websitemockup1.jpg"
 import { FaArrowLeft } from "react-icons/fa";
 
 const Project = ({ title = "Project Title", timePeriod = "Jun XX - Jul XX", link, secondaryLink, secondaryLinkTitle, technologiesUsed = ["Tailwind", "React"], about = "Talk about the project here", pictureLink }) => {

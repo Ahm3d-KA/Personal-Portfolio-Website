@@ -76,7 +76,7 @@ const Hero = () => {
                             {/*    <AiFillMail className="hidden md:block"/>*/}
                             {/*</a>*/}
                             <Link to="contact" smooth={true} duration={700}
-                                  href="#contact"><AiFillMail className="hidden md:block hover:text-orange-500"/></Link>
+                                  ><AiFillMail className="hidden md:block hover:text-orange-500"/></Link>
                         </div>
 
                         {/*Button to CV*/}
