@@ -16,7 +16,7 @@ const Work = () => {
                         </h2>
                         <article className="prose prose-stone dark:prose-invert prose-sm md:prose-base lg:prose-lg">
                             <p className="">
-                                These are my latest projects for different clients
+                                These are my latest projects
                             </p>
                         </article>
                             

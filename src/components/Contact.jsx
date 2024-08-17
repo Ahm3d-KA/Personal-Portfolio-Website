@@ -9,7 +9,7 @@ const Contact = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-0">
 
                         <div className="p-6 mx-4 bg-gray-800 border border-gray-700 rounded-xl flex flex-col
-                          justify-around h-[450px]">
+                          justify-around h-[300px] md:h-[450px]">
 
                             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white">
                                 Contact <span>Me</span>
