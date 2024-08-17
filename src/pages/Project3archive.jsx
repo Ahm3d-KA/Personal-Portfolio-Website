@@ -1,4 +1,4 @@
-﻿import Project from "../components/Project";
+import Project from "../components/Project";
 import portfoliopic from "../assets/archivepicture.jpg"
 export const Project3archive = () => {
     return (

@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri"
 import { SiCplusplus, SiCsharp} from "react-icons/si"
 import { BiLogoPostgresql } from "react-icons/bi";

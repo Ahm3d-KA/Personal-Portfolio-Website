@@ -1,4 +1,4 @@
-﻿import React from 'react'
+import React from 'react'
 import profilepic from "../assets/figmagraphic4.png"
 import {AiFillLinkedin, AiFillGithub, AiFillMail} from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation"

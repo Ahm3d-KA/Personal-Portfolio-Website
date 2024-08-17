@@ -1,4 +1,4 @@
-﻿import Project from "../components/Project";
+import Project from "../components/Project";
 import portfoliopic from "../assets/mentalmathspicture.jpg"
 export const Project2mentalmaths = () => {
     return (

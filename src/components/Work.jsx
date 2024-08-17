@@ -1,4 +1,4 @@
-﻿import React from "react";  
+import React from "react";  
 import bouncepicture from "../assets/bouncepicture.jpg"
 import mathspicture from "../assets/mentalmathspicture.jpg"
 import archivepicture from "../assets/archivepicture.jpg"

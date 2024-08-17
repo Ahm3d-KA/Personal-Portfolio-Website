@@ -1,4 +1,4 @@
-﻿import Project from "../components/Project";
+import Project from "../components/Project";
 import portfoliopic from "../assets/bouncepicture.jpg"
 export const Project1bounce = () => {
     return (
