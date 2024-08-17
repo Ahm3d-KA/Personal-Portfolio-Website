@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState, useEffect, useCallback} from "react";
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import { Link } from "react-scroll"
 export const Navbar = () => {
@@ -6,7 +6,7 @@ export const Navbar = () => {
     const [show, setShow] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0);
 
-    const controlNavbar = () => {
+    const controlNavbar = useCallback(() => {
         if (typeof window !== 'undefined') {
             if (window.scrollY > lastScrollY) {
                 // if scrolling down, hide the navbar
@@ -19,7 +19,8 @@ export const Navbar = () => {
             // remember the current page location for the next move
             setLastScrollY(window.scrollY);
         }
-    };
+    }, [lastScrollY]);
+    
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
@@ -30,7 +31,7 @@ export const Navbar = () => {
                 window.removeEventListener('scroll', controlNavbar);
             };
         }
-    }, [lastScrollY]);
+    }, [controlNavbar]);
     
     const [nav, setNav] = useState(false)
 
@@ -64,21 +65,21 @@ export const Navbar = () => {
 
                     <li className="p-2 lg:p-3 lg:py-4 xl:p-5"><Link to="home" smooth={true} duration={500}
                                                                     className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-                                                                    href="#home">Home</Link></li>
+                                                                   >Home</Link></li>
                     <li className="p-2 lg:p-3 lg:py-4 xl:p-5"><Link to="about" smooth={true} duration={500}
                                                                     className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-                                                                    href="#about">About</Link></li>
+                                                                    >About</Link></li>
 
                     <li className="p-2 lg:p-3 lg:py-4 xl:p-5"><Link to="work" smooth={true} duration={500}
                                                                     className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-                                                                    href="#work">Work</Link></li>
+                                                                   >Work</Link></li>
                     <li className="p-2 lg:p-3 lg:py-4 xl:p-5"><Link to="experience" smooth={true} duration={500}
                                                                     className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-                                                                    href="#experience">Experience</Link></li>
+                                                                    >Experience</Link></li>
                     <li className="p-2 lg:p-3 lg:py-4 xl:p-5 pr-0 mr-4 xl:mr-40"><Link to="contact" smooth={true}
                                                                                        duration={500}
                                                                                        className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-                                                                                       href="#contact">Contact</Link>
+                                                                                       >Contact</Link>
                     </li>
                 </ul>
             </div>
@@ -99,21 +100,22 @@ export const Navbar = () => {
 
 
                         <ul className="pl-4 text-xl bg-[#202121]">
-                            <li onClick={handleNav} className="p-2"><a href="#home">
+                            <li onClick={handleNav} className="p-2"><Link to="home">
                                 Home
-                            </a></li>
-                            <li onClick={handleNav} className="p-2"><a href="#about">
+                            </Link></li>
+                            <li onClick={handleNav} className="p-2"><Link to="about" 
+                                                                          >
                                 About
-                            </a></li>
-                            <li onClick={handleNav} className="p-2"><a href="#work">
+                            </Link></li>
+                            <li onClick={handleNav} className="p-2"><Link to="work">
                                 Work
-                            </a></li>
-                            <li onClick={handleNav} className="p-2"><a href="#experience">
+                            </Link></li>
+                            <li onClick={handleNav} className="p-2"><Link to="experience">
                                 Experience
-                            </a></li>
-                            <li onClick={handleNav} className="p-2"><a href="#contact">
+                            </Link></li>
+                            <li onClick={handleNav} className="p-2"><Link to="contact">
                                 Contact
-                            </a></li>
+                            </Link></li>
                             
                         </ul>
                     </div>

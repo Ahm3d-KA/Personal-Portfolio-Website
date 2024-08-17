@@ -13,8 +13,8 @@ const About = () => {
                 <div>
                     <div className="w-[400px] h-full relative top-[150px] md:static">
                         <img
+                            alt={"man working at his desk"}
                             src={aboutImg}
-                            alt="About image"
                             className="object-cover bg-gray-700 md:rounded-xl h-[300]px
                         filter brightness-50 grayscale"
                         />

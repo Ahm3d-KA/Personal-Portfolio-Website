@@ -30,7 +30,7 @@ const Technlogies = () => {
 
                     </div>
 
-                    <a title="" role=""
+                    <div title="" role=""
                        className="w-full md:w-[158px] h-full relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-[#232325] font-pj rounded-xl techcard
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
@@ -38,7 +38,7 @@ const Technlogies = () => {
 
                             <RiReactjsLine className={"text-7xl icon text-white hover:scale-125"} size={100}/>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div className="animate-float delay-100  relative inline-flex group">
                     <div className="absolute transition-all duration-1000 opacity-0 -inset-px bg-gradient-to-r
@@ -47,7 +47,7 @@ const Technlogies = () => {
 
                     </div>
 
-                    <a title="" role=""
+                    <div title="" role=""
                        className="w-full md:w-[158px] h-full relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-[#232325] font-pj rounded-xl techcard
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
@@ -55,7 +55,7 @@ const Technlogies = () => {
 
                             <RiTailwindCssFill className={"text-7xl icon text-white hover:scale-125"} size={100}/>
                         </div>
-                    </a>
+                    </div>
                 </div>
 
                 <div className="animate-float xl:animate-nofloat  delay-200  relative inline-flex group">
@@ -65,7 +65,7 @@ const Technlogies = () => {
 
                     </div>
 
-                    <a title="" role=""
+                    <div title="" role=""
                        className="w-full md:w-[158px] h-full relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-[#232325] font-pj rounded-xl techcard
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
@@ -73,7 +73,7 @@ const Technlogies = () => {
 
                             <BiLogoPostgresql className={"text-7xl icon text-white hover:scale-125"} size={100}/>
                         </div>
-                    </a>
+                    </div>
                 </div>
 
                 <div className="animate-float delay-300  relative inline-flex group">
@@ -83,7 +83,7 @@ const Technlogies = () => {
 
                     </div>
 
-                    <a title="" role=""
+                    <div title="" role=""
                        className="w-full md:w-[158px] h-full relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-[#232325] font-pj rounded-xl techcard
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
@@ -91,7 +91,7 @@ const Technlogies = () => {
 
                             <IoLogoJavascript className={"text-7xl icon text-white hover:scale-125"} size={100}/>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div className="animate-float delay-400  relative inline-flex group">
                     <div className="absolute transition-all duration-1000 opacity-0 -inset-px bg-gradient-to-r
@@ -100,7 +100,7 @@ const Technlogies = () => {
 
                     </div>
 
-                    <a title="" role=""
+                    <div title="" role=""
                        className="w-full md:w-[158px] h-full relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-[#232325] font-pj rounded-xl techcard
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
@@ -108,7 +108,7 @@ const Technlogies = () => {
 
                             <SiCsharp className={"text-7xl icon text-white hover:scale-125"} size={100}/>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div className="animate-float delay-500  relative inline-flex group">
                     <div className="absolute transition-all duration-1000 opacity-0 -inset-px bg-gradient-to-r
@@ -117,7 +117,7 @@ const Technlogies = () => {
 
                     </div>
 
-                    <a title="" role=""
+                    <div title="" role=""
                        className="w-full md:w-[158px] h-full relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-[#232325] font-pj rounded-xl techcard
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
@@ -125,7 +125,7 @@ const Technlogies = () => {
 
                             <SiCplusplus className={"text-7xl icon text-white hover:scale-125"} size={100}/>
                         </div>
-                    </a>
+                    </div>
                 </div>
 
                 {/*<div className="animate-float delay-100 techcard bg-[#232325] p-4 ">*/}
