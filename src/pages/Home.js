@@ -5,10 +5,11 @@ import Work from "../components/Work";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Technlogies from "../components/Technologies";
-import {useEffect, useState} from "react";
+import {useEffect} from "react";
+import React from 'react';
 
 export const Home = () => {
-    const [scrollPosition, setScrollPosition] = useState(0);
+    // const [scrollPosition, setScrollPosition] = useState(0);
 
     useEffect(() => {
         // Retrieve scroll position from localStorage

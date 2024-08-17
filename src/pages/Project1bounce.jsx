@@ -1,5 +1,7 @@
 import Project from "../components/Project";
 import portfoliopic from "../assets/bouncepicture.jpg"
+import React from 'react';
+
 export const Project1bounce = () => {
     return (
         <>

@@ -27,7 +27,7 @@ root.render(
 // document.addEventListener('mousemove', (e) => {
 //     document.documentElement.style.setProperty('--mouse-x', `${e.clientX}px`);
 //     document.documentElement.style.setProperty('--mouse-y', `${e.clientY}px`);
-// });
+// // });
 //
 // for (const card of document.querySelectorAll(".card")) {
 //     card.onmousemove = e => handleOnMouseMove(e);

@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaArrowLeft } from "react-icons/fa";
+import PropTypes from "prop-types";
 
 const Project = ({ title = "Project Title", timePeriod = "Jun XX - Jul XX", link, secondaryLink, secondaryLinkTitle, technologiesUsed = ["Tailwind", "React"], about = "Talk about the project here", pictureLink }) => {
     return (
@@ -25,13 +26,13 @@ const Project = ({ title = "Project Title", timePeriod = "Jun XX - Jul XX", link
 
                 </div>
                 <article className={"prose dark:prose-invert stone prose-sm md:prose-base lg:prose-lg xl:prose-xl"}>
-                    <a href={link} target="_blank" className={"text-blue-200 hover:text-blue-50 underline"}>Link to demo
+                    <a href={link} target="_blank" rel="noreferrer" className={"text-blue-200 hover:text-blue-50 underline"}>Link to demo
                         website</a>
 
 
                 </article>
                 <article className="prose dark:prose-invert stone prose-sm md:prose-base lg:prose-lg xl:prose-xl">
-                    <a href={secondaryLink} target="_blank" className={"text-blue-200 hover:text-blue-50 underline"}>
+                    <a href={secondaryLink} target="_blank" rel="noreferrer" className={"text-blue-200 hover:text-blue-50 underline"}>
                         {secondaryLinkTitle}
                     </a>
                 </article>
@@ -64,5 +65,17 @@ const Project = ({ title = "Project Title", timePeriod = "Jun XX - Jul XX", link
         </div>
     );
 };
+
+Project.propTypes = {
+    title: PropTypes.string,
+    timePeriod: PropTypes.string,
+    link: PropTypes.string,
+    secondaryLink: PropTypes.string,
+    secondaryLinkTitle: PropTypes.string,
+    technologiesUsed: PropTypes.arrayOf(PropTypes.string),
+    about: PropTypes.string,
+    pictureLink: PropTypes.string
+};
+
 
 export default Project;

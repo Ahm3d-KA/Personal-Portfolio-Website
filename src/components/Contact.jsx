@@ -15,8 +15,8 @@ const Contact = () => {
                                 Contact <span>Me</span>
                             </h1>
                             <p className="text-normal text-lg text-gray-400 mt-2">
-                                Let's connect on <div className="underline text-[#FF4B2B] hover:text-[#ff674d] inline">
-                                <a target="_blank" href="https://uk.linkedin.com/in/ahmedkehinde?trk=people-guest_people_search-card">
+                                Let&apos;s connect on <div className="underline text-[#FF4B2B] hover:text-[#ff674d] inline">
+                                <a target="_blank" rel="noreferrer" href="https://uk.linkedin.com/in/ahmedkehinde?trk=people-guest_people_search-card">
                                     LinkedIn
                                 </a>
                             </div>

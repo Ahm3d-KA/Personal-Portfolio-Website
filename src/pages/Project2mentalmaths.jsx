@@ -1,5 +1,6 @@
 import Project from "../components/Project";
 import portfoliopic from "../assets/mentalmathspicture.jpg"
+import React from 'react';
 export const Project2mentalmaths = () => {
     return (
         <>

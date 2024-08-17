@@ -52,10 +52,10 @@ const Hero = () => {
                         {/*Changes icon size for mobile screens*/}
                         <div
                             className="text-5xl flex flex-row justify-around md:justify-start md:gap-10 md:my-0 text-orange-600">
-                            <a target="_blank" href="https://github.com/Ahm3d-KA">
+                            <a target="_blank" rel="noreferrer" href="https://github.com/Ahm3d-KA">
                                 <AiFillGithub size={50} className="md:hidden"/>
                             </a>
-                            <a target="_blank"
+                            <a target="_blank" rel="noreferrer"
                                href="https://uk.linkedin.com/in/ahmedkehinde?trk=people-guest_people_search-card">
                                 <AiFillLinkedin size={50} className="md:hidden"/>
                             </a>
@@ -65,10 +65,10 @@ const Hero = () => {
                         </div>
                         <div
                             className="text-5xl flex flex-row justify-around md:justify-start md:gap-10 md:my-3 text-orange-600">
-                            <a target="_blank" href="https://github.com/Ahm3d-KA">
+                            <a target="_blank" rel="noreferrer" href="https://github.com/Ahm3d-KA">
                                 <AiFillGithub className="hidden md:block hover:text-orange-500"/>
                             </a>
-                            <a target="_blank"
+                            <a target="_blank" rel="noreferrer"
                                href="https://uk.linkedin.com/in/ahmedkehinde?trk=people-guest_people_search-card">
                                 <AiFillLinkedin className="hidden md:block hover:text-orange-500"/>
                             </a>
@@ -88,7 +88,7 @@ const Hero = () => {
 
                                 </div>
 
-                                <a href="https://bluecoatschoolorg-my.sharepoint.com/:w:/g/personal/17kehindea_bluecoatstudent_org_uk/EassQaMwDpxCst3P8ZuVzfAB8TRIxLj1B7eNioy5IHYiVA?e=Er0Hmg" target="_blank" title="Download CV" role="button"
+                                <a href="https://bluecoatschoolorg-my.sharepoint.com/:w:/g/personal/17kehindea_bluecoatstudent_org_uk/EassQaMwDpxCst3P8ZuVzfAB8TRIxLj1B7eNioy5IHYiVA?e=Er0Hmg" target="_blank" rel="noreferrer" title="Download CV" role="button"
                                    className="w-[240px] md:w-[280px] h-[50px] md:h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-primary-color font-pj rounded-xl
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
