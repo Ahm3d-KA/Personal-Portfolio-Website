@@ -30,7 +30,7 @@ const Technlogies = () => {
 
                     </div>
 
-                    <div title="" role=""
+                    <div
                        className="w-full md:w-[158px] h-full relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-[#232325] font-pj rounded-xl techcard
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
@@ -47,7 +47,7 @@ const Technlogies = () => {
 
                     </div>
 
-                    <div title="" role=""
+                    <div
                        className="w-full md:w-[158px] h-full relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-[#232325] font-pj rounded-xl techcard
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
@@ -65,7 +65,7 @@ const Technlogies = () => {
 
                     </div>
 
-                    <div title="" role=""
+                    <div
                        className="w-full md:w-[158px] h-full relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-[#232325] font-pj rounded-xl techcard
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
@@ -83,7 +83,7 @@ const Technlogies = () => {
 
                     </div>
 
-                    <div title="" role=""
+                    <div
                        className="w-full md:w-[158px] h-full relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-[#232325] font-pj rounded-xl techcard
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
@@ -100,7 +100,7 @@ const Technlogies = () => {
 
                     </div>
 
-                    <div title="" role=""
+                    <div
                        className="w-full md:w-[158px] h-full relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-[#232325] font-pj rounded-xl techcard
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
@@ -117,7 +117,7 @@ const Technlogies = () => {
 
                     </div>
 
-                    <div title="" role=""
+                    <div
                        className="w-full md:w-[158px] h-full relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-[#232325] font-pj rounded-xl techcard
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
