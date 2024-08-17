@@ -20,9 +20,9 @@ const Project = ({ title = "Project Title", timePeriod = "Jun XX - Jul XX", link
                     <h5 className="">{timePeriod}</h5>
                 </article>
                 <div className={"px-0"}>
-                    <img alt={"picture"} className={"w-full object-contain"}
+                    <img className={"w-full object-contain"}
                          src={pictureLink}
-                    />
+                     alt=""/>
 
                 </div>
                 <article className={"prose dark:prose-invert stone prose-sm md:prose-base lg:prose-lg xl:prose-xl"}>
