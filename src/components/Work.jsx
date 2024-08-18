@@ -2,6 +2,7 @@ import React from "react";
 import bouncepicture from "../assets/bouncepicture.jpg"
 import mathspicture from "../assets/mentalmathspicture.jpg"
 import archivepicture from "../assets/archivepicture.jpg"
+import { Link } from "react-router-dom"
 
 
 
@@ -25,15 +26,15 @@ const Work = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-8 gap-4 md:gap-6 xl:gap-8">
-                    <a href="Personal-Portfolio-Website/archive"
+                    <Link to="/archive"
                        className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg col-span-1 md:col-span-4 lg:col-span-3 md:h-80">
                         <img src={archivepicture} loading="lazy" alt=""
                              className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"/>
                         <div
                             className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-                    </a>
+                    </Link>
 
-                    <a href="Personal-Portfolio-Website/bounce"
+                    <Link to="/bounce"
                        className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg col-span-1 md:col-span-4 lg:col-span-5 md:h-80">
                         <img src={bouncepicture} loading="lazy" alt=""
                              className="absolute inset-0 h-full w-full object-cover 
@@ -41,15 +42,15 @@ const Work = () => {
                              group-hover:scale-110"/>
                         <div
                             className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-                    </a>
+                    </Link>
 
-                    <a href="/Personal-Portfolio-Website/mentalmaths"
+                    <Link to="/mentalmaths"
                        className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg col-span-1 md:col-span-4 lg:col-span-5 md:h-80">
                         <img src={mathspicture} loading="lazy" alt=""
                              className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"/>
                         <div
                             className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
-                    </a>
+                    </Link>
 
                     <a href="/" 
                        className="group bg-gray-900 relative flex h-48 items-end overflow-hidden rounded-lg shadow-lg col-span-1 md:col-span-4 lg:col-span-3 md:h-80">
