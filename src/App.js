@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route} from "react-router-dom";
+import {Routes, Route, BrowserRouter} from "react-router-dom";
 import {Home} from "./Home";
 import {Project1bounce} from "./Project1bounce";
 import {Project2mentalmaths} from "./Project2mentalmaths";
@@ -16,14 +16,15 @@ import {Project3archive} from "./Project3archive";
 function App() {
   return (
       <>
+          <BrowserRouter basename="/Personal-Portfolio-Website" />
           
               <Routes>
                   <Route index element={<Home />} />
                   <Route path="/" element={<Home />} />
-                  <Route path={"/Personal-Portfolio-Website/home"} element={<Home />} />
-                  <Route path={"/Personal-Portfolio-Website/bounce"} element={<Project1bounce />} />
-                  <Route path={"/Personal-Portfolio-Website/mentalmaths"} element={<Project2mentalmaths />} />
-                  <Route path={"/Personal-Portfolio-Website/archive"} element={<Project3archive />} />
+                  <Route path={"/home"} element={<Home />} />
+                  <Route path={"/bounce"} element={<Project1bounce />} />
+                  <Route path={"/mentalmaths"} element={<Project2mentalmaths />} />
+                  <Route path={"/archive"} element={<Project3archive />} />
               </Routes>
           
           
