@@ -16,7 +16,7 @@ import {Project3archive} from "./Project3archive";
 function App() {
   return (
       <>
-          <BrowserRouter basename="/Personal-Portfolio-Website" />
+          <BrowserRouter basename="/Personal-Portfolio-Website">
           
               <Routes>
                   <Route index element={<Home />} />
@@ -26,7 +26,7 @@ function App() {
                   <Route path={"/mentalmaths"} element={<Project2mentalmaths />} />
                   <Route path={"/archive"} element={<Project3archive />} />
               </Routes>
-          
+          </BrowserRouter>
           
           {/*<Project link={"localhost:3000"} pictureLink={portfoliopic} title={"Clothing Website"} timePeriod={"May 23 - Jan 24"} technologiesUsed={["helo", "me"]}  about={"This project is an e-commerce shopping platform designed to provide users with a seamless online shopping experience. The website features a clean and modern user interface, allowing users to browse, search, and purchase products easily. The site includes a robust backend for handling inventory management, user authentication, and secure payment processing."} />*/}
           {/*<Project />*/}
