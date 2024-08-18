@@ -19,10 +19,11 @@ function App() {
           
               <Routes>
                   <Route index element={<Home />} />
-                  <Route path={"/home"} element={<Home />} />
-                  <Route path={"/bounce"} element={<Project1bounce />} />
-                  <Route path={"/mentalmaths"} element={<Project2mentalmaths />} />
-                  <Route path={"/archive"} element={<Project3archive />} />
+                  <Route path="/" element={<Home />} />
+                  <Route path={"/Personal-Portfolio-Website/home"} element={<Home />} />
+                  <Route path={"/Personal-Portfolio-Website/bounce"} element={<Project1bounce />} />
+                  <Route path={"/Personal-Portfolio-Website/mentalmaths"} element={<Project2mentalmaths />} />
+                  <Route path={"/Personal-Portfolio-Website/archive"} element={<Project3archive />} />
               </Routes>
           
           
