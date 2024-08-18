@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import {Home} from "./pages/Home";
-import {Project1bounce} from "./pages/Project1bounce";
-import {Project2mentalmaths} from "./pages/Project2mentalmaths";
-import {Project3archive} from "./pages/Project3archive";
+import {Home} from "./Home";
+import {Project1bounce} from "./Project1bounce";
+import {Project2mentalmaths} from "./Project2mentalmaths";
+import {Project3archive} from "./Project3archive";
 
 // Cool project picture animations
 // Cool animations
@@ -20,9 +20,9 @@ function App() {
               <Routes>
                   <Route index element={<Home />} />
                   <Route path={"/home"} element={<Home />} />
-                  <Route path={"/project/bounce"} element={<Project1bounce />} />
-                  <Route path={"/project/mentalmaths"} element={<Project2mentalmaths />} />
-                  <Route path={"/project/archive"} element={<Project3archive />} />
+                  <Route path={"/bounce"} element={<Project1bounce />} />
+                  <Route path={"/mentalmaths"} element={<Project2mentalmaths />} />
+                  <Route path={"/archive"} element={<Project3archive />} />
               </Routes>
           </BrowserRouter>
           

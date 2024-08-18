@@ -25,7 +25,7 @@ const Work = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-8 gap-4 md:gap-6 xl:gap-8">
-                    <a href="/project/archive"
+                    <a href="/archive"
                        className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg col-span-1 md:col-span-4 lg:col-span-3 md:h-80">
                         <img src={archivepicture} loading="lazy" alt=""
                              className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"/>
@@ -33,7 +33,7 @@ const Work = () => {
                             className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
                     </a>
 
-                    <a href="/project/bounce"
+                    <a href="/bounce"
                        className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg col-span-1 md:col-span-4 lg:col-span-5 md:h-80">
                         <img src={bouncepicture} loading="lazy" alt=""
                              className="absolute inset-0 h-full w-full object-cover 
@@ -43,7 +43,7 @@ const Work = () => {
                             className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
                     </a>
 
-                    <a href="/project/mentalmaths"
+                    <a href="/mentalmaths"
                        className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg col-span-1 md:col-span-4 lg:col-span-5 md:h-80">
                         <img src={mathspicture} loading="lazy" alt=""
                              className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"/>
@@ -52,7 +52,7 @@ const Work = () => {
                     </a>
 
                     <a href="/" 
-                       className="group bg-gray-900 relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg col-span-1 md:col-span-4 lg:col-span-3 md:h-80">
+                       className="group bg-gray-900 relative flex h-48 items-end overflow-hidden rounded-lg shadow-lg col-span-1 md:col-span-4 lg:col-span-3 md:h-80">
                         {/*<img src="" loading="lazy" alt=""*/}
                         {/*     className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"/>*/}
                         <div

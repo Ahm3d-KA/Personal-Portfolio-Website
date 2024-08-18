@@ -1,5 +1,5 @@
-import Project from "../components/Project";
-import portfoliopic from "../assets/archivepicture.jpg"
+import Project from "./components/Project";
+import portfoliopic from "./assets/archivepicture.jpg"
 import React from 'react';
 
 export const Project3archive = () => {

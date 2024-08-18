@@ -1,10 +1,10 @@
-import {Navbar} from "../components/Navbar";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import Work from "../components/Work";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
-import Technlogies from "../components/Technologies";
+import {Navbar} from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Work from "./components/Work";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Technlogies from "./components/Technologies";
 import {useEffect} from "react";
 import React from 'react';
 
