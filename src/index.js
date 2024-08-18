@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import {HashRouter} from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <HashRouter>
-        <App />
-    </HashRouter>
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+        <HashRouter>
+            <App />
+        </HashRouter>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
