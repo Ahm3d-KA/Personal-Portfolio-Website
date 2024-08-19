@@ -5,11 +5,11 @@ import {Home} from "./Home";
 // import {Project2mentalmaths} from "./Project2mentalmaths";
 // import {Project3archive} from "./Project3archive";
 // import ReactDOM from "react-dom/client";
-import { Routes, Route } from "react-router-dom";
-import {Project1bounce} from "./Project1bounce";
-import Layout from "./Layout";
-import {Project2mentalmaths} from "./Project2mentalmaths";
-import {Project3archive} from "./Project3archive";
+// import { Routes, Route } from "react-router-dom";
+// import {Project1bounce} from "./Project1bounce";
+// import Layout from "./Layout";
+// import {Project2mentalmaths} from "./Project2mentalmaths";
+// import {Project3archive} from "./Project3archive";
 
 // Cool project picture animations
 // Cool animations
@@ -22,18 +22,19 @@ import {Project3archive} from "./Project3archive";
 function App() {
   return (
       <>
+          <Home />
          
-              <Routes>
-                  <Route path="/" element={<Layout />}>
-                  <Route path="/" element={<Home />} />
-                      <Route index element={<Home />} />
-                      <Route path="archive" element={<Project3archive />} />
-                      <Route path="bounce" element={<Project1bounce />} />
-                      <Route path="mentalmaths" element={<Project2mentalmaths />} />
-                      {/*<Route path="contact" element={<Contact />} />*/}
-                      {/*<Route path="*" element={<NoPage />} />*/}
-                  </Route>
-              </Routes>
+              {/*<Routes>*/}
+              {/*    <Route path="/" element={<Layout />}>*/}
+              {/*    <Route path="/" element={<Home />} />*/}
+              {/*        <Route index element={<Home />} />*/}
+              {/*        <Route path="archive" element={<Project3archive />} />*/}
+              {/*        <Route path="bounce" element={<Project1bounce />} />*/}
+              {/*        <Route path="mentalmaths" element={<Project2mentalmaths />} />*/}
+              {/*        /!*<Route path="contact" element={<Contact />} />*!/*/}
+              {/*        /!*<Route path="*" element={<NoPage />} />*!/*/}
+              {/*    </Route>*/}
+              {/*</Routes>*/}
    
           {/*<BrowserRouter basename="/Personal-Portfolio-Website">*/}
           
