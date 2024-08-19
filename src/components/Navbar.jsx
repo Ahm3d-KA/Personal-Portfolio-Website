@@ -64,21 +64,21 @@ export const Navbar = () => {
                 <ul className="hidden md:flex">
 
                     <li className="p-2 lg:p-3 lg:py-4 xl:p-5"><Link to="home" smooth={true} duration={500}
-                                                                    className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+                                                                    className="relative cursor-pointer hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
                                                                    >Home</Link></li>
                     <li className="p-2 lg:p-3 lg:py-4 xl:p-5"><Link to="about" smooth={true} duration={500}
-                                                                    className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+                                                                    className="relative cursor-pointer hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
                                                                     >About</Link></li>
 
                     <li className="p-2 lg:p-3 lg:py-4 xl:p-5"><Link to="work" smooth={true} duration={500}
-                                                                    className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+                                                                    className="relative cursor-pointer hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
                                                                    >Work</Link></li>
                     <li className="p-2 lg:p-3 lg:py-4 xl:p-5"><Link to="experience" smooth={true} duration={500}
-                                                                    className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+                                                                    className="relative cursor-pointer hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
                                                                     >Experience</Link></li>
                     <li className="p-2 lg:p-3 lg:py-4 xl:p-5 pr-0 mr-4 xl:mr-40"><Link to="contact" smooth={true}
                                                                                        duration={500}
-                                                                                       className="relative hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+                                                                                       className="relative cursor-pointer hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
                                                                                        >Contact</Link>
                     </li>
                 </ul>
