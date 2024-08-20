@@ -53,15 +53,15 @@ const About = () => {
                             </h3>
                             <article
                                 className="prose dark:prose-invert prose-sm md:prose-base lg:prose-lg prose-stone">
-                                <p className="hidden md:block">
+                                <p>
                                     I am a full stack developer based in Liverpool who uses ASP.NET to build web applications. I have been working on improving my web development skills for over 2 years. When I'm not doing creative work, I enjoy playing basketball and going to the gym. I am always looking for new clients who want simple single page applications for their business or side hustle.
                                 </p>
-                                <p className="md:hidden">
-                                    I am a passionate full-stack web developer with 2 years of experience,
-                                    specializing
-                                    in
-                                    .NET and React.
-                                </p>
+                                {/*<p className="md:hidden">*/}
+                                {/*    I am a passionate full-stack web developer with 2 years of experience,*/}
+                                {/*    specializing*/}
+                                {/*    in*/}
+                                {/*    .NET and React.*/}
+                                {/*</p>*/}
                             </article>
                         </div>
                     </div>
