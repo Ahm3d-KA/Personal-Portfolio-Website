@@ -53,7 +53,7 @@ const Work = () => {
                     </Link>
 
                     <Link to="/" 
-                       className="group bg-gray-900 relative flex h-48 items-end overflow-hidden rounded-lg shadow-lg col-span-1 md:col-span-4 lg:col-span-3 md:h-80">
+                       className="group hidden bg-gray-900 relative md:flex h-48 items-end overflow-hidden rounded-lg shadow-lg col-span-1 md:col-span-4 lg:col-span-3 md:h-80">
                         {/*<img src="" loading="lazy" alt=""*/}
                         {/*     className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"/>*/}
                         <div
