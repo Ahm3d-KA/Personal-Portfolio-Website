@@ -3,7 +3,7 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div id="contact" className="flex justify-center py-10 h-full sm:h-[70vh]
+        <div id="contact" className="flex justify-center py-10 h-full sm:h-[70vh] 
         items-center">
             <div className="max-w-[1200px] mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-0">

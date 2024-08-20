@@ -1,25 +1,25 @@
 import React from "react"
-import aboutImg from "../assets/aboutmepicturev2.png"
+// import aboutImg from "../assets/aboutmepicturev2.png"
 
 const About = () => {
     return (
         
             
-        <div id="about" className="py-10 xl:pb-[200px] md:pb-10 text-white h-auto bg-[#232325]" >
+        <div id="about" className="py-10 xl:pb-[200px] md:pb-10 text-white h-auto bg-[#232325] flex items-center justify-center w-full" >
             <div className="flex xl:flex-row flex-col-reverse items-center
         md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
     
                 {/*About image*/}
-                <div>
-                    <div className="w-[400px] h-full relative mt-4 md:static">
-                        <img
-                            alt={"A of me"}
-                            src={aboutImg}
-                            className="object-cover md:rounded-xl h-[300]px
-                        filter"
-                        />
-                    </div>
-                </div>
+                {/*<div>*/}
+                {/*    <div className="w-[400px] h-full relative mt-4 md:static">*/}
+                {/*        <img*/}
+                {/*            alt={"A of me"}*/}
+                {/*            src={aboutImg}*/}
+                {/*            className="object-cover md:rounded-xl h-[300]px*/}
+                {/*        filter"*/}
+                {/*        />*/}
+                {/*    </div>*/}
+                {/*</div>*/}
     
                 <div>
                     {/*<div className="p-2">*/}
