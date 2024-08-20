@@ -1,22 +1,22 @@
 import React from "react"
-import aboutImg from "../assets/about4.jpeg"
+import aboutImg from "../assets/aboutmepicturev2.png"
 
 const About = () => {
     return (
         
             
-        <div id="about" className="py-10 pb-[200px] md:pb-10 text-white h-auto bg-[#232325]" >
-            <div className="flex lg:flex-row flex-col-reverse items-center
+        <div id="about" className="py-10 xl:pb-[200px] md:pb-10 text-white h-auto bg-[#232325]" >
+            <div className="flex xl:flex-row flex-col-reverse items-center
         md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
     
                 {/*About image*/}
                 <div>
-                    <div className="w-[400px] h-full relative top-[150px] md:static">
+                    <div className="w-[400px] h-full relative mt-4 md:static">
                         <img
-                            alt={"man working at his desk"}
+                            alt={"A picture of me"}
                             src={aboutImg}
-                            className="object-cover bg-gray-700 md:rounded-xl h-[300]px
-                        filter brightness-50 grayscale"
+                            className="object-cover md:rounded-xl h-[300]px
+                        filter"
                         />
                     </div>
                 </div>
@@ -76,7 +76,7 @@ const About = () => {
                         </div>
                     </div>
     
-                    <div className="flex flex-col sm:flex-row mt-5 sm:mt-10 items-center gap-2 md:gap-5 h-[180px]  xl:h-[120px]">
+                    <div className="flex flex-col sm:flex-row mt-5 sm:mt-10 items-center gap-2 md:gap-5 h-[180px] max-w-[600px] xl:h-[120px]">
     
                         {/*Number of projects*/}
                         <div className="bg-[#333333]/40 p-3 rounded-lg w-full h-full">
@@ -120,24 +120,24 @@ const About = () => {
                         </div>
     
                         {/*Happy Clients*/}
-                        <div className="bg-[#333333]/40 p-3 rounded-lg w-full h-full">
-                            <div className="w-full flex flex-col items-center sm:hidden">
-    
-                                <h3 className="md:text-3xl lg:text-4xl text-xl font-semibold text-white">
-                                    10
-                                    <span>+</span>
-                                </h3>
-                                <p><span className="md:text-base text-xs">Happy clients</span></p>
-                            </div>
-                            <div className="w-full hidden sm:block">
-    
-                                <h3 className="md:text-3xl lg:text-4xl text-xl font-semibold text-white">
-                                    10
-                                    <span>+</span>
-                                </h3>
-                                <p><span className="md:text-base text-xs">Happy clients</span></p>
-                            </div>
-                        </div>
+                        {/*<div className="bg-[#333333]/40 p-3 rounded-lg w-full h-full">*/}
+                        {/*    <div className="w-full flex flex-col items-center sm:hidden">*/}
+                        
+                        {/*        <h3 className="md:text-3xl lg:text-4xl text-xl font-semibold text-white">*/}
+                        {/*            10*/}
+                        {/*            <span>+</span>*/}
+                        {/*        </h3>*/}
+                        {/*        <p><span className="md:text-base text-xs">Happy clients</span></p>*/}
+                        {/*    </div>*/}
+                        {/*    <div className="w-full hidden sm:block">*/}
+                        
+                        {/*        <h3 className="md:text-3xl lg:text-4xl text-xl font-semibold text-white">*/}
+                        {/*            10*/}
+                        {/*            <span>+</span>*/}
+                        {/*        </h3>*/}
+                        {/*        <p><span className="md:text-base text-xs">Happy clients</span></p>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
     
                     </div>
                 </div>

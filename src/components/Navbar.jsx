@@ -73,9 +73,9 @@ export const Navbar = () => {
                     <li className="p-2 lg:p-3 lg:py-4 xl:p-5"><Link to="work" smooth={true} duration={500}
                                                                     className="relative cursor-pointer hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
                                                                    >Work</Link></li>
-                    <li className="p-2 lg:p-3 lg:py-4 xl:p-5"><Link to="experience" smooth={true} duration={500}
-                                                                    className="relative cursor-pointer hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
-                                                                    >Experience</Link></li>
+                    {/*<li className="p-2 lg:p-3 lg:py-4 xl:p-5"><Link to="experience" smooth={true} duration={500}*/}
+                    {/*                                                className="relative cursor-pointer hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"*/}
+                    {/*                                                >Experience</Link></li>*/}
                     <li className="p-2 lg:p-3 lg:py-4 xl:p-5 pr-0 mr-4 xl:mr-40"><Link to="contact" smooth={true}
                                                                                        duration={500}
                                                                                        className="relative cursor-pointer hover:text-gray-200 w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-200 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
@@ -110,9 +110,9 @@ export const Navbar = () => {
                             <li onClick={handleNav} className="p-2"><Link to="work">
                                 Work
                             </Link></li>
-                            <li onClick={handleNav} className="p-2"><Link to="experience">
-                                Experience
-                            </Link></li>
+                            {/*<li onClick={handleNav} className="p-2"><Link to="experience">*/}
+                            {/*    Experience*/}
+                            {/*</Link></li>*/}
                             <li onClick={handleNav} className="p-2"><Link to="contact">
                                 Contact
                             </Link></li>

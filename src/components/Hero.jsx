@@ -10,7 +10,7 @@ const Hero = () => {
             <div className={"absolute top-0 left-0"} id="home">
 
             </div>
-            <div className="h-3/4 md:h-[100vh] mt-[100px] lg:mt-[100px] xl:mt-[90px]">
+            <div className="h-3/4 lg:h-[100vh] mt-[100px] pl-2 lg:mt-[100px] xl:mt-[90px]">
                 <div className="my-7 sm:my-0 max-w-[1400px] h-[80vh] mx-auto 
             flex flex-col-reverse sm:flex-row
             justify-center align-center">
