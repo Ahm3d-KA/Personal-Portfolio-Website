@@ -13,7 +13,7 @@ const About = () => {
                 <div>
                     <div className="w-[400px] h-full relative mt-4 md:static">
                         <img
-                            alt={"A picture of me"}
+                            alt={"A of me"}
                             src={aboutImg}
                             className="object-cover md:rounded-xl h-[300]px
                         filter"
