@@ -5,9 +5,9 @@ const About = () => {
     return (
         
             
-        <div id="about" className="py-10 xl:pb-[200px] md:pb-10 text-white h-auto bg-[#232325] flex items-center justify-center w-full" >
+        <div id="about" className="pt-6 xl:pb-[200px] mb-16 md:mb-0 md:pb-10 text-white h-auto bg-[#232325] flex items-center justify-center w-full" >
             <div className="flex xl:flex-row flex-col-reverse items-center
-        md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
+        md:gap-6 gap-12 px-2 md:px-10 max-w-6xl mx-auto">
     
                 {/*About image*/}
                 {/*<div>*/}

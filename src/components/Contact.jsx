@@ -3,9 +3,16 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div id="contact" className="flex justify-center py-10 h-full sm:h-[70vh] 
+        <>
+            <br className={"hidden lg:block"}/>
+            <br className={"hidden lg:block"}/>
+            <br className={"hidden lg:block"}/>
+            <br className={"hidden lg:block"}/>
+
+
+            <div id="contact" className="flex justify-center py-10 h-full sm:h-[70vh] 
         items-center">
-            <div className="max-w-[1200px] mx-auto">
+                <div className="max-w-[1200px] mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-0">
 
                         <div className="p-6 mx-4 bg-gray-800 border border-gray-700 rounded-xl flex flex-col
@@ -15,8 +22,10 @@ const Contact = () => {
                                 Contact <span>Me</span>
                             </h1>
                             <p className="text-normal text-lg text-gray-400 mt-2">
-                                Let&apos;s connect on <div className="underline text-[#FF4B2B] hover:text-[#ff674d] inline">
-                                <a target="_blank" rel="noreferrer" href="https://uk.linkedin.com/in/ahmedkehinde?trk=people-guest_people_search-card">
+                                Let&apos;s connect on <div
+                                className="underline text-[#FF4B2B] hover:text-[#ff674d] inline">
+                                <a target="_blank" rel="noreferrer"
+                                   href="https://uk.linkedin.com/in/ahmedkehinde?trk=people-guest_people_search-card">
                                     LinkedIn
                                 </a>
                             </div>
@@ -78,21 +87,22 @@ const Contact = () => {
 
                                     </div>
 
-                                    <a href="/" title="Download CV" role="button"
-                                       className="w-[240px] md:w-full h-[50px] md:h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
+                                    <button title="Download CV" role="button"
+                                            className="w-[240px] md:w-full h-[50px] md:h-[60px] relative inline-flex items-center justify-center px-8 py-4 text-sm md:text-lg
                                font-bold text-white transition-all duration-200 bg-primary-color font-pj rounded-xl
                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
                                         Get in Touch
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
 
                         </form>
                     </div>
 
-            </div>
+                </div>
 
-        </div>
+            </div>
+        </>
     )
 }
 

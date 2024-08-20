@@ -28,7 +28,6 @@ function App() {
                   <Route path={"/mentalmaths"} element={<Project2mentalmaths />} />
                   <Route path={"/archive"} element={<Project3archive />} />
           </Routes>
-      {/*<Home /> */}
           </HashRouter>
       </>
   );

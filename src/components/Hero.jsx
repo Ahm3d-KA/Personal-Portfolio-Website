@@ -10,7 +10,7 @@ const Hero = () => {
             <div className={"absolute top-0 left-0"} id="home">
 
             </div>
-            <div className="h-3/4 md:h-[100vh] mt-[100px] pl-2 lg:mt-[100px] xl:mt-[90px]">
+            <div className="h-500px md:h-[800px] lg:h-[850px] mt-[100px] pl-2 lg:mt-[100px] xl:mt-[90px]">
                 <div className="my-7 sm:my-0 max-w-[1400px] h-[80vh] mx-auto 
             flex flex-col-reverse sm:flex-row
             justify-center align-center">
@@ -94,8 +94,8 @@ const Hero = () => {
                             </div>
     
                             {/*Button to CV*/}
-                            <div>
-                                <div className="ml-[50px] md:ml-0  relative inline-flex group my-3">
+                            <div className={"flex w-full lg:w-auto items-center justify-center md:block"}>
+                                <div className=" md:ml-0  relative inline-flex group my-3">
                                     <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r
                                  from-[#FF4B2B] to-[#6689A1] via-[#FF416C] rounded-xl blur-lg group-hover:opacity-100
                                 group-hover:-inset-1 group-hover:duration-200 animate-tilt">

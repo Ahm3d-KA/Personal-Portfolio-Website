@@ -36,10 +36,15 @@ export const Home = () => {
             <Hero />
             <Technlogies />
             <About />
-            <Work />
-            {/*<Experience />*/}
-            <Contact  />
-            <Footer />
+            {/*<div className={"flex flex-col gap-auto w-full border items-center justify-center-center"}>*/}
+                <Work />
+                {/*<Experience />*/}
+            <div>
+                <Contact  />
+                <Footer />
+            </div>
+                
+            {/*</div>*/}
         </>
     )
 }
