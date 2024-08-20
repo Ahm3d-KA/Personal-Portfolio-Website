@@ -54,17 +54,7 @@ const About = () => {
                             <article
                                 className="prose dark:prose-invert prose-sm md:prose-base lg:prose-lg prose-stone">
                                 <p className="hidden md:block">
-                                    I am a passionate full-stack web developer with 2 years of experience,
-                                    specializing
-                                    in
-                                    .NET and React. My journey in software development has allowed me to build
-                                    dynamic,
-                                    responsive, and efficient web applications that deliver exceptional user
-                                    experiences. I
-                                    thrive on solving complex problems and have a strong foundation in both
-                                    front-end
-                                    and
-                                    back-end development.
+                                    I am a full stack developer based in Liverpool who uses ASP.NET to build web applications. I have been working on improving my web development skills for over 2 years. When I'm not doing creative work, I enjoy playing basketball and going to the gym. I am always looking for new clients who want simple single page applications for their business or side hustle.
                                 </p>
                                 <p className="md:hidden">
                                     I am a passionate full-stack web developer with 2 years of experience,
